@@ -1,0 +1,33 @@
+export const lightColors = {
+    appBackground: "#F6ECC9",
+    card: "#FFFFFF",
+    inputSurface: "#FFFFFF",
+    heroPanel: "#FFFDF2",
+    buttonSurface: "#BEBCF2",
+    buttonText: "#FFFFFF",
+    primaryText: "#0f0819",
+    secondaryText: "#30223b",
+    mutedText: "#23192a",
+    placeholder: "#A98EB7",
+    hotText: "#FF2F8F",
+    border: "#22142D",
+    focusBorder: "#00D7FF",
+    heroShadow: "#FF2F8F",
+}
+
+export const darkColors = {
+    appBackground: "#0B0711",
+    card: "#1C1430",
+    inputSurface: "#191123",
+    heroPanel: "#21142F",
+    buttonSurface: "#8E7BFF",
+    buttonText: "#FFFFFF",
+    primaryText: "#FFFFFF",
+    secondaryText: "#F3E8FF",
+    mutedText: "#D8C7E6",
+    placeholder: "#A995B8",
+    hotText: "#FF6DB2",
+    border: "#6F5A82",
+    focusBorder: "#B8A7FF",
+    heroShadow: "#8E7BFF",
+}
