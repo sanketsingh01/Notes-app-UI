@@ -118,6 +118,11 @@ export default function Index() {
     focusedInput === "body" && themeStyles.focusedInputWrapper,
   ]);
 
+  const screenStyles: StyleProp<ViewStyle> = StyleSheet.compose(
+    styles.container,
+    themeStyles.appBackground,
+  );
+
   const noteCardTitleStyle = isdarkMode ? styles.noteTextLight : themeStyles.primaryText;
   const noteCardPreviewStyle = isdarkMode ? styles.noteTextLight : themeStyles.secondaryText;
   const noteCardMetaStyle = isdarkMode ? styles.noteTextLight : themeStyles.mutedText;
@@ -157,7 +162,7 @@ export default function Index() {
   )
 
   const renderEditorScreen = () => (
-    <SafeAreaView style={[styles.container, themeStyles.appBackground]}>
+    <SafeAreaView style={screenStyles}>
       <KeyboardAvoidingView
         behavior={Platform.OS === "ios" ? "padding" : "height"}
         keyboardVerticalOffset={Platform.OS === "ios" ? 10 : 0}
@@ -254,7 +259,7 @@ export default function Index() {
   );
 
   const renderHomeScreen = () => (
-    <SafeAreaView style={[styles.container, themeStyles.appBackground]}>
+    <SafeAreaView style={screenStyles}>
       {/* Header Section */}
       <View style={[styles.screenShell, responsiveStyles.screenShell]}>
         <View style={styles.headerSection}>
