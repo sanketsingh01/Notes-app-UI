@@ -10,6 +10,10 @@ A React Native Notes App built with Expo. The Ui includes two screens. On first 
   <img src="./assets/images/image-2.png" alt="Editor screen screenshot" width="30%" />
 </p>
 
+## Live Demo
+
+live link: https://youtube.com/shorts/EMoCVXmoDLc?feature=share
+
 ## Features
 
 - Dark light mode options
