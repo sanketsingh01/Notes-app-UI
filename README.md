@@ -4,13 +4,11 @@ A React Native Notes App built with Expo. The Ui includes two screens. On first 
 
 ## Screenshot
 
-UI screenshot in light mode:
-![light mode image](./assets/images/image.png)
-
-UI screenshot in dark mode:
-![dark Mode image](./assets/images/image-1.png)
-
-![editor scrren](./assets/images/image-2.png)
+<p>
+  <img src="./assets/images/image.png" alt="Light mode screenshot" width="30%" />
+  <img src="./assets/images/image-1.png" alt="Dark mode screenshot" width="30%" />
+  <img src="./assets/images/image-2.png" alt="Editor screen screenshot" width="30%" />
+</p>
 
 ## Features
 
